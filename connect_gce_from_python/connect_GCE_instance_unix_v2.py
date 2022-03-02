@@ -1,6 +1,7 @@
 import paramiko
 
-host = "34.67.110.206"
+#add your GCE external ip 
+host = "30.60.110.706"
 username = "tanvi"
 password = "tanvi"
 
@@ -9,7 +10,7 @@ ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 
    
-ssh.connect("34.67.110.206",port=22,username=username, password=password)
+ssh.connect("30.60.110.706",port=22,username=username, password=password)
 
 commands = [
     "pwd",
