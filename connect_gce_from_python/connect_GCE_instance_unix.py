@@ -20,7 +20,7 @@ commands = [
 # In[22]:
 
 
-private_key=r"C:\Users\hemant.khandare\OneDrive - Accenture\Desktop\python\virat_private_key.ppk"
+private_key=r"C:\Users\hemantakhandare\Desktop\python\virat_private_key.ppk"
 
 
 # In[24]:
